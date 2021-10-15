@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "Git is a version control system. It allows individuals and teams to track changes to code and view the history of code projects. This also prevents bugs and the loss of progress.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "GitHub is a website that hosts Git repositories. It is cloud-based and allows for code to be easily shared.";
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+var init = {
+    description: "Initializes a repository (code project) in the current folder.",
+    code: "git init",
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+var clone = {
+    description: "Copies a remote repository from GitHub and places it on the local machine.",
+    code: "git clone <REPO-URL>",
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+var status = {
+    description: "Displays information about a repository.",
+    code: "git status",
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+var add = {
+    description: "Adds files to be tracked to the local repository.",
+    code: "git add <FILE-NAMES or . for all files in folder>",
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,8 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
-
+var commit = {
+    description: "Creates a snapshot of the files being tracked. Can have a message describing files in quotes.",
+    code: "git commit -am <MESSAGE>",
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,4 +88,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+var push = {
+    description: "Puts local commits into a remote repository on GitHub.",
+    code: "git push <REPO-NAME>",
+};
